@@ -14,7 +14,6 @@ import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 @EventBusSubscriber(modid = DucksVsGeese.MODID, bus = EventBusSubscriber.Bus.MOD)
 public class ModEventSubscriber {
 
-
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void onPostRegisterEntities(final RegistryEvent.Register<EntityType<?>> event) {
         ModdedSpawnEggItem.initUnaddedEggs();

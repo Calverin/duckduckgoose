@@ -24,10 +24,20 @@ public final class ModEntityTypes {
     public static final DeferredRegister<EntityType<?>> ENTITY_TYPES = DeferredRegister.create(ForgeRegistries.ENTITIES, DucksVsGeese.MODID);
 
     public static final String DUCK_NAME = "duck";
+    public static final String GOOSE_NAME = "goose";
+
     public static final RegistryObject<EntityType<DuckEntity>> DUCK = ENTITY_TYPES.register(DUCK_NAME, () ->
             EntityType.Builder.<DuckEntity>create(DuckEntity::new, EntityClassification.CREATURE)
                     .size(EntityType.CHICKEN.getWidth(), EntityType.CHICKEN.getHeight())
+                    .func_233606_a_(10)
                     .build(new ResourceLocation(DucksVsGeese.MODID, DUCK_NAME).toString())
+    );
+
+    public static final RegistryObject<EntityType<GooseEntity>> GOOSE = ENTITY_TYPES.register(GOOSE_NAME, () ->
+            EntityType.Builder.<GooseEntity>create(GooseEntity::new, EntityClassification.CREATURE)
+                    .size(EntityType.CHICKEN.getWidth(), EntityType.CHICKEN.getHeight())
+                    .func_233606_a_(10)
+                    .build(new ResourceLocation(DucksVsGeese.MODID, GOOSE_NAME).toString())
     );
 
 }

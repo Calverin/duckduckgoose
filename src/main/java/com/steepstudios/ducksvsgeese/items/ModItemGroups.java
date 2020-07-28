@@ -16,7 +16,7 @@ import java.util.function.Supplier;
  */
 public final class ModItemGroups {
 
-    public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(DucksVsGeese.MODID, () -> new ItemStack(ModItems.EXAMPLE_CRYSTAL.get()));
+    public static final ItemGroup MOD_ITEM_GROUP = new ModItemGroup(DucksVsGeese.MODID, () -> new ItemStack(ModItems.DUCK_FEATHER.get()));
 
     public static final class ModItemGroup extends ItemGroup {
 

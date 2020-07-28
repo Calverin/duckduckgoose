@@ -1,6 +1,7 @@
 package com.steepstudios.ducksvsgeese.client;
 
 import com.steepstudios.ducksvsgeese.client.render.entity.DuckRenderer;
+import com.steepstudios.ducksvsgeese.client.render.entity.GooseRenderer;
 import com.steepstudios.ducksvsgeese.entities.ModEntityTypes;
 import com.steepstudios.ducksvsgeese.DucksVsGeese;
 import net.minecraftforge.api.distmarker.Dist;
@@ -34,6 +35,8 @@ public final class ClientModEventSubscriber {
 
         // Register Entity Renderers
         RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.DUCK.get(), DuckRenderer::new);
+        // Register Entity Renderers
+        RenderingRegistry.registerEntityRenderingHandler(ModEntityTypes.GOOSE.get(), GooseRenderer::new);
         LOGGER.debug("Registered Entity Renderers");
 
     }

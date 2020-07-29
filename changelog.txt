@@ -114,7 +114,7 @@ Build: 1.16.1-32.0.64 - Mon Jul 13 22:17:58 GMT 2020
 		Fix checkPatches task. Closes #6956
 		Fix patched in method using srg name. Closes #6965
 		Fix capabilities not being collected for ClientWorld. Closes #6966
-		Fix TagEmptyCondition using com.steepstudios.ducksvsgeese.client side copy of tags instead of server. Closes #6949
+		Fix TagEmptyCondition using com.steepstudios.duckduckgoose.client side copy of tags instead of server. Closes #6949
 		Fix ExtendedButton using narrator text. Closes #6958, Closes #6959
 		Fix misaligned patch in RepairContainer. Closes #6950, Closes #6953
 		Fix LivingJumpEvent not being fired for players jumping horses. Closes #6929
@@ -182,7 +182,7 @@ Build: 1.16.1-32.0.54 - Mon Jul 06 20:46:01 GMT 2020
 =========
 Build: 1.16.1-32.0.53 - Mon Jul 06 20:39:37 GMT 2020
 	40738104+Mysterious-Dev:
-		Add function to add com.steepstudios.ducksvsgeese.items with the same behavior as the pumpkin for enderman (#6890)
+		Add function to add com.steepstudios.duckduckgoose.items with the same behavior as the pumpkin for enderman (#6890)
 
 =========
 Build: 1.16.1-32.0.52 - Mon Jul 06 20:33:17 GMT 2020
@@ -383,7 +383,7 @@ Build: 1.16.1-32.0.15 - Fri Jun 26 13:55:42 GMT 2020
 =========
 Build: 1.16.1-32.0.14 - Fri Jun 26 13:23:07 GMT 2020
 	thpetuaudletang:
-		Fix block render types not being properly applied to item com.steepstudios.ducksvsgeese.entities (#6832)
+		Fix block render types not being properly applied to item com.steepstudios.duckduckgoose.entities (#6832)
 
 =========
 Build: 1.16.1-32.0.13 - Fri Jun 26 13:05:18 GMT 2020
@@ -477,7 +477,7 @@ Build: 1.16.1-32.0.6 - Fri Jun 26 01:52:19 GMT 2020
 =========
 Build: 1.16.1-32.0.2 - Fri Jun 26 01:41:51 GMT 2020
 	lex:
-		Rework BlockSnapshot and fix com.steepstudios.ducksvsgeese.client notifications. Closes #6807
+		Rework BlockSnapshot and fix com.steepstudios.duckduckgoose.client notifications. Closes #6807
 
 =========
 Build: 1.16.1-32.0.1 - Thu Jun 25 23:24:48 GMT 2020

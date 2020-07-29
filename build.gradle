@@ -14,8 +14,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = '0.1'
-group = 'com.steepstudios.ducksvsgeese' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'ducksvsgeese'
+group = 'com.steepstudios.duckduckgoose' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'duckduckgoose'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
@@ -75,7 +75,7 @@ minecraft {
             // Recommended logging level for the console
             property 'forge.logging.console.level', 'debug'
 
-            args '--mod', 'ducksvsgeese', '--all', '--output', file('src/generated/resources/')
+            args '--mod', 'duckduckgoose', '--all', '--output', file('src/generated/resources/')
 
             mods {
                 examplemod {
@@ -116,7 +116,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-            "Specification-Title": "ducksvsgeese",
+            "Specification-Title": "duckduckgoose",
             "Specification-Vendor": "steepstudios",
             "Specification-Version": "1", // We are version 1 of ourselves
             "Implementation-Title": project.name,
